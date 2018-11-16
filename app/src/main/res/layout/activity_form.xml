@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Silahkan Pilih Divisi"
+        android:textSize="36dp"
+        android:layout_marginTop="130dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Divisi Aktivasi"
+        android:textSize="20dp"
+        android:id="@+id/btn_aktiv"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_aktiv"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:text="Divisi Pemeliharaan"
+        android:id="@+id/btn_pel"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_pel"
+        android:textSize="20dp"
+        android:text="Divisi Sales"
+        android:id="@+id/btn_sal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+
+</RelativeLayout>
